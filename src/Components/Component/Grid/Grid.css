@@ -1,0 +1,33 @@
+.grid {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.turn-highlight {
+    /* padding-right: 200px; */
+    color: white;
+}
+
+.reset {
+    margin : 20px 0;
+    padding: 1rem;
+    color: white;
+    background-color: var(--resetGreen);
+    border: none;
+    border-radius: 10px;
+}
+
+.draw {
+    margin-top: 10px;
+    color: white;
+}
+
+.grid-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
